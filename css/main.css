@@ -1,6 +1,6 @@
 :root {
   --main-color: #8e44ad;
-  --bg-color: rgba(0, 0, 0, 0.2);
+  --bg-color: rgba(142, 68, 173, 0.3);
 }
 body {
   font-family: "Cairo", sans-serif;
@@ -337,7 +337,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(142, 68, 173, 0.5);
+  background-color: var(--bg-color);
   border-radius: 40px 0 40px;
 }
 .square .content p {
@@ -537,6 +537,10 @@ footer .social i {
   }
   .title {
     width: 100%;
+  }
+
+  .title h3 {
+    font-size: 14px;
   }
   #topics .content {
     display: block;
